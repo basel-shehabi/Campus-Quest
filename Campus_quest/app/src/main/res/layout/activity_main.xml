@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151D3C"
+    tools:context=".MainActivity"><![CDATA[
+
+
+        app:layout_constraintEnd_toEndOf=
+        app:layout_constraintHorizontal_bias=0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.572" />
+
+
+
+    54dp"
+        tools:layout_editor_absoluteY="369dp"
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
+
+    <Button
+        android:id="@+id/settings_btn"
+        style="@style/main_button"
+        android:layout_width="299dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="25dp"
+        android:background="#6577A2"
+        android:text="Settings"
+        android:textSize="24sp"
+        app:fontFamily="@font/press_start_2p"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start" />
+
+    <Button
+        android:id="@+id/start"
+        style="@android:style/Widget.Holo.Button.Borderless"
+        android:layout_width="299dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="32dp"
+        android:background="#6577A2"
+        android:text="Start"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:fontFamily="@font/press_start_2p"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <Button
+        android:id="@+id/leaderboard"
+        style="@android:style/Widget.Holo.Button.Borderless"
+        android:layout_width="299dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="25dp"
+        android:background="#6577A2"
+        android:text="High Scores"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:fontFamily="@font/press_start_2p"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_btn" />
+
+    <Button
+        android:id="@+id/leaderboard2"
+        style="@android:style/Widget.Holo.Button.Borderless"
+        android:layout_width="299dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="25dp"
+        android:background="#6577A2"
+        android:text="Instructions"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:fontFamily="@font/press_start_2p"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/leaderboard" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="331dp"
+        android:layout_height="202dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Campus Quest"
+        android:textColor="#FFC107"
+        android:textSize="56sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:fontFamily="@font/bungee_shade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="190dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:cropToPadding="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/glasgow_uni_logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

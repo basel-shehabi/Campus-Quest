@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151D3C"
+    tools:context=".Photos">
+
+    <TextView
+        android:id="@+id/Facts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="665dp"
+        android:text="Facts"
+        android:textColor="#E4A81B"
+        android:textSize="30sp"
+        app:fontFamily="@font/press_start_2p"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="84dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="336dp"
+        android:layout_marginLeft="336dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/untitled_artwork"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Did you know?"
+        android:textColor="#F1EFED"
+        android:textSize="36sp"
+        app:fontFamily="@font/russo_one"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="365dp"
+        android:layout_height="409dp"
+        android:background="#6577A2"
+        android:bufferType="normal"
+        android:text="TextView"
+        android:textColor="#F5F0F0"
+        android:textSize="24sp"
+        app:fontFamily="@font/russo_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="209dp"
+        tools:text="The Lion and the Unicorn Staircase was created in 1690 by stonemason William Riddel and was part of the original University of Glasgow campus located in the city's High Street. When the university relocated to its present site at Gilmorehill in 1870, this staircase was brought over stone by stone, by horse and cart, to be rebuilt by hand and made part of the new building. " />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

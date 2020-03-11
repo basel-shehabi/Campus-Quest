@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151D3C"
+    tools:context=".Photos">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="89dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginRight="172dp"
+        android:text="Emily"
+        android:textColor="#F1E8E8"
+        android:textSize="25"
+        app:fontFamily="@font/russo_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.447" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="139dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:text="Rhiannon"
+        android:textColor="#F1E8E8"
+        android:textSize="25"
+        app:fontFamily="@font/russo_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.642" />
+
+    <TextView
+        android:id="@+id/Facts"
+        android:layout_width="199dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="65dp"
+        android:gravity="center"
+        android:text="High Scores"
+        android:textColor="#E4A81B"
+        android:textSize="30sp"
+        app:fontFamily="@font/press_start_2p"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="84dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="336dp"
+        android:layout_marginLeft="336dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/untitled_artwork"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="89dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginRight="172dp"
+        android:text="Andrei"
+        android:textColor="#F1E8E8"
+        android:textSize="25"
+        app:fontFamily="@font/russo_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="89dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="172dp"
+        android:layout_marginRight="172dp"
+        android:text="Andrei"
+        android:textColor="#F1E8E8"
+        android:textSize="25"
+        app:fontFamily="@font/russo_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="99dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Level 3"
+        android:textColor="#F1E8E8"
+        android:textSize="25"
+        app:fontFamily="@font/russo_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="99dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Level 2"
+        android:textColor="#F1E8E8"
+        android:textSize="25"
+        app:fontFamily="@font/russo_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="99dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Level 1"
+        android:textColor="#F1E8E8"
+        android:textSize="25"
+        app:fontFamily="@font/russo_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="111dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222"
+        app:srcCompat="@drawable/stuart" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="111dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.436"
+        app:srcCompat="@drawable/jason_derulo_2" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="111dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653"
+        app:srcCompat="@drawable/tony_hark" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
